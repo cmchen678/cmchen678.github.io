@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Christian Chen</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome CSS-->
+    <link
+      rel="stylesheet"
+      href="vendor/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300"
+    />
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/owl.carousel/assets/owl.theme.default.css"
+    />
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css" />
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet" />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- Leaflet CSS - For the map-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css"
+    />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
+    ><![endif]-->
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a href="#intro" class="navbar-brand link-scroll">Christian Chen</a>
+          <button
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarcollapse"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler navbar-toggler-right"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#about" class="nav-link link-scroll">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link link-scroll">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#references" class="nav-link link-scroll">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link link-scroll">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section
+      id="intro"
+      style="
+        background: url(img/home.jpg) center center no-repeat;
+        background-size: cover;
+      "
+      class="intro-section pb-2"
+    >
+      <div class="container text-center">
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">
+          Christian Chen
+        </h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">
+          Web Developer
+        </p>
+      </div>
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">About me</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6 about-paragraph">
+            <p>
+              Hi! My name is Christian Matthew Chen. I'm a web developer with a
+              strong attention to detail, perhaps sometimes even bordering on
+              perfectionism. Having been a gamer since a young age, I've spent a
+              lot of my time on a computer, and so naturally programming piqued
+              my interest. Through my time as a programmer, I've also come to
+              appreciate and enjoy the design aspect of web development, and I
+              always have a lot of fun learning new CSS tricks in order to make
+              my projects look cleaner and more fluid.
+            </p>
+            <p>
+              Outside the digital world, I love food, music and animals. I have
+              an American Shorthair cat named Gravy that I adopted when she was
+              five, and I've since managed to train her to join me on walks
+              around the neighborhood.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service-->
+    <section id="services" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">Skills</h2>
+        </header>
+        <div class="row services text-center">
+          <div data-animate="fadeInUp" class="col-lg-4 skill-icon">
+            <img src="img/html5-original-wordmark.svg" />
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 skill-icon">
+            <img src="img/css3-original-wordmark.svg" />
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 skill-icon">
+            <img src="img/javascript-original.svg" />
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 skill-icon">
+            <img src="img/react-original-wordmark.svg" />
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 skill-icon">
+            <h3>Redux</h3>
+            <img src="img/redux-original.svg" />
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 skill-icon">
+            <img src="img/nodejs-original-wordmark.svg" />
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 skill-icon">
+            <img src="img/git-original-wordmark.svg" />
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 skill-icon">
+            <img src="img/postgresql-original-wordmark.svg" />
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4 skill-icon">
+            <img src="img/mongodb-original-wordmark.svg" />
+          </div>
+        </div>
+        <hr data-animate="fadeInUp" />
+      </div>
+    </section>
+    <!--
+    *** REFERENCES IMAGE ***
+    _________________________________________________________
+    -->
+    <section id="references">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="mb-5 text-center">
+            <h2 data-animate="fadeInUp" class="title">My Projects</h2>
+          </div>
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto">
+                <span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Reference detail-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row">
+              <div class="reference-item col-lg-4 col-md-6">
+                <div class="reference">
+                  <a href="#"
+                    ><img src="img/rpg.png" alt="" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Treasure Hunt RPG</h3>
+                        <p>React-Redux Project</p>
+                      </div>
+                    </div></a
+                  >
+                  <div
+                    data-images="img/rpg.png"
+                    class="sr-only reference-description"
+                  >
+                    <p>
+                      Front-end project built HTML, CSS, JavaScript, React, and
+                      Redux
+                    </p>
+                    <p>
+                      A simple “find the treasure” RPG game made using React and
+                      Redux to render the map and character sprites by mapping
+                      over a Matrix of arrays, and updating the store with the
+                      character’s position and movement information as well as
+                      the location of objects such as rocks and trees
+                    </p>
+                    <p class="buttons text-center">
+                      <a
+                        href="https://react-redux-game.vercel.app/"
+                        class="btn btn-outline-primary"
+                        target="_blank"
+                        ><i class="fa fa-globe"></i> Visit website</a
+                      ><a
+                        href="https://github.com/cmchen678/react-redux-game"
+                        class="btn btn-outline-primary"
+                        target="_blank"
+                        ><i class="fa fa-github"></i> GitHub</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="reference-item col-lg-4 col-md-6">
+                <div class="reference">
+                  <a href="#"
+                    ><img src="img/tripapp.png" alt="" class="img-fluid" />
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Trip App</h3>
+                        <p>Backend Project</p>
+                      </div>
+                    </div></a
+                  >
+                  <div
+                    data-images="img/tripapp.png"
+                    class="sr-only reference-description"
+                  >
+                    <p>
+                      Back-end project built remotely with a six member team
+                      using Node.js, Express, and Sequelize with a front-end in
+                      HTML, CSS, and JavaScript. User data was stored in a
+                      database built with PostgreSQL.
+                    </p>
+                    <p>
+                      tripApp is an application that expands upon the
+                      ‘TravelToTheCity’ app and allows users to search for any
+                      location or establishment within a given area using the
+                      Google Maps and Places APIs and save any points of
+                      interest to their profile with a list of details for each
+                      location
+                    </p>
+                    <p class="buttons text-center">
+                      <a
+                        href="https://tripapp-project.herokuapp.com/login"
+                        class="btn btn-outline-primary"
+                        target="_blank"
+                        ><i class="fa fa-globe"></i> Visit website</a
+                      ><a
+                        href="https://github.com/tandangle/tripApp"
+                        class="btn btn-outline-primary"
+                        target="_blank"
+                        ><i class="fa fa-github"></i> GitHub</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="reference-item col-lg-4 col-md-6">
+                <div class="reference">
+                  <a href="#"
+                    ><img
+                      src="img/traveltothecity.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Travel To The City</h3>
+                        <p>Frontend project</p>
+                      </div>
+                    </div></a
+                  >
+                  <div
+                    data-images="img/traveltothecity.png"
+                    class="sr-only reference-description"
+                  >
+                    <p>
+                      Front-end project built remotely with a five member team
+                      using HTML, CSS, and JavaScript
+                    </p>
+                    <p>
+                      TravelToTheCity is a tool that uses the Google Maps and
+                      Places APIs to allow users to search for tourist
+                      attractions within any given city and display photos and
+                      details for each location, as well as the city's one-week
+                      weather forecast.
+                    </p>
+                    <p class="buttons text-center">
+                      <a
+                        href="https://shankarp88.github.io/about.html"
+                        class="btn btn-outline-primary"
+                        target="_blank"
+                        ><i class="fa fa-globe"></i> Visit website</a
+                      ><a
+                        href="https://github.com/Shankarp88/Travel_to_the_city"
+                        class="btn btn-outline-primary"
+                        target="_blank"
+                        ><i class="fa fa-github"></i> GitHub</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="main-footer">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title contact-title">Contact me</h2>
+        </header>
+        <div class="row contact-box">
+          <div class="col-lg-3">
+            <a>
+              <i class="fa fa-phone"></i>
+              404-431-7052
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a href="mailto:cmchen678@gmail.com">
+              <i class="fa fa-envelope"></i>
+              cmchen678@gmail.com
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a href="https://github.com/cmchen678" target="_blank">
+              <i class="fa fa-github"></i>
+              GitHub
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a href="https://www.linkedin.com/in/cmchen678/" target="_blank">
+              <i class="fa fa-linkedin-square"></i>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
